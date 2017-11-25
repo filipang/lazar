@@ -26,6 +26,8 @@ public class HomrActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(HomrActivity.this, MainActivity.class);
                 startActivity(intent);
+
+                
             }
         });
 
