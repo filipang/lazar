@@ -27,7 +27,7 @@ public class HomrActivity extends AppCompatActivity {
                 Intent intent = new Intent(HomrActivity.this, MainActivity.class);
                 startActivity(intent);
 
-                
+
             }
         });
 
