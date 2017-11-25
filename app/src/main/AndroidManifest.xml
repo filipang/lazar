@@ -20,7 +20,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".ORARActivity" />
         <activity android:name=".SALIActivity" />
-        <activity android:name=".ProfilulMeu"></activity>
+        <activity android:name=".ProfilulMeu" />
+        <activity android:name=".TabelActivity" />
+        <activity android:name=".LitereActivity"></activity>
     </application>
 
 </manifest>

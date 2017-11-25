@@ -13,10 +13,10 @@ public class ORARActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_orar);
 
-        final Button button3 = findViewById(R.id.button_sign_up);
+        final Button button3 = findViewById(R.id.cls9);
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(ORARActivity.this, HomrActivity.class);
+                Intent intent = new Intent(ORARActivity.this, TabelActivity.class);
                 startActivity(intent);//AAAAAAAAAAAA
             }
         });

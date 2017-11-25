@@ -6,35 +6,41 @@
     android:layout_height="match_parent"
     tools:context="com.ceamaitareechipa.h44x.ochiullazarului.ORARActivity">
 
-    <Button
-        android:id="@+id/cls9"
-        android:layout_width="122dp"
-        android:layout_height="wrap_content"
-        android:text="CLASA A 9-A"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/cls10"
-        android:layout_width="122dp"
-        android:layout_height="wrap_content"
-        android:text="CLASA A 10-A"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="64dp" />
+        <Button
+            android:id="@+id/cls9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLASA A 9-A"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
 
-    <Button
-        android:id="@+id/cls11"
-        android:layout_width="122dp"
-        android:layout_height="wrap_content"
-        android:text="CLASA A 11-A"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="112dp" />
+        <Button
+            android:id="@+id/cls10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLASA A 10-A"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="64dp" />
 
-    <Button
-        android:id="@+id/cls12"
-        android:layout_width="122dp"
-        android:layout_height="wrap_content"
-        android:text="CLASA A 12-A"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="160dp" />
+        <Button
+            android:id="@+id/cls11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLASA A 11-A"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="112dp" />
+
+        <Button
+            android:id="@+id/cls12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLASA A 12-A"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="160dp" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
