@@ -17,7 +17,7 @@ public class ORARActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(ORARActivity.this, HomrActivity.class);
-                startActivity(intent);//hhhh
+                startActivity(intent);//AAAAAAAAAAAA
             }
         });
 
