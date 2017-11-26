@@ -15,9 +15,11 @@
             android:id="@+id/profil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/sali"
-            android:text="profil"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="85dp"
+            android:layout_marginEnd="29dp"
+            android:text="PROFILUL MEU"
             tools:layout_editor_absoluteX="179dp"
             tools:layout_editor_absoluteY="55dp" />
 
@@ -25,8 +27,8 @@
             android:id="@+id/orarul_profesorilor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/orarultuturor"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:text="Orarul profesorilor"
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="147dp" />
@@ -35,9 +37,9 @@
             android:id="@+id/orarultuturor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/orar"
-            android:text="orarul tuturor "
+            android:layout_above="@+id/orarul_profesorilor"
+            android:layout_centerHorizontal="true"
+            android:text="ORARUL ELEVILOR"
             tools:layout_editor_absoluteX="620dp"
             tools:layout_editor_absoluteY="424dp" />
 
@@ -45,8 +47,8 @@
             android:id="@+id/orar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
+            android:layout_above="@+id/orarultuturor"
+            android:layout_centerHorizontal="true"
             android:text="orarul meu"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="48dp" />
@@ -55,11 +57,42 @@
             android:id="@+id/sali"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/orarul_profesorilor"
-            android:text="sali"
+            android:layout_alignBaseline="@+id/profil"
+            android:layout_alignBottom="@+id/profil"
+            android:layout_marginEnd="45dp"
+            android:layout_toStartOf="@+id/profil"
+            android:text="STATUS SALI"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="505dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/profil"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="Erorile pot fi raportate la 0728282"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText6"
+            android:layout_centerHorizontal="true"
+            android:text="EVENIMENTE"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sali"
+            android:layout_centerHorizontal="true"
+            android:text="CREDITS"
+            android:textSize="25sp" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
