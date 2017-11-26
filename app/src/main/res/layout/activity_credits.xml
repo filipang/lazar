@@ -6,41 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.ceamaitareechipa.h44x.ochiullazarului.Credits">
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="COLEGIUL NATIONAL      GHEORGHE LAZAR"
-        android:textAlignment="center"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="415dp" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RATE OUR APP!"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="362dp" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="URECHE Tiberiu"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="143dp" />
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -49,27 +14,10 @@
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="227dp"
-            android:layout_marginStart="127dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:text="JINGA Serban"
-            android:textSize="25sp"
-            tools:layout_editor_absoluteX="114dp"
-            tools:layout_editor_absoluteY="238dp" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="218dp"
-            android:layout_marginStart="135dp"
-            android:text="ANGHELUTA Filip"
-            android:textSize="25sp"
-            tools:layout_editor_absoluteX="95dp"
-            tools:layout_editor_absoluteY="109dp" />
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/textView17"
@@ -79,9 +27,59 @@
             android:layout_alignParentTop="true"
             android:text="App developed and created by"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView20"
+            android:text="ANGHELUTA Filip"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView20"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84dp"
+            android:text="COLEGIUL NATIONAL      GHEORGHE LAZAR"
+            android:textAlignment="center"
+            android:textSize="25sp"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="16dp" />
+            tools:layout_editor_absoluteY="255dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView21"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView18"
+            android:layout_below="@+id/ratingBar"
+            android:text="RATE OUR APP!"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="362dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/textView19"
+            android:text="URECHE Tiberiu"
+            android:textSize="25sp"/>
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
