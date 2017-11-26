@@ -10,12 +10,12 @@ public class ProfilulMeu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profilul_meu);
         final Button button3 = findViewById(R.id.deconectare);
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+
                 Intent intent = new Intent(ProfilulMeu.this, HomrActivity.class);
                 startActivity(intent);
             }
