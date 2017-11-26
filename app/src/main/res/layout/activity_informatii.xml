@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ceamaitareechipa.h44x.ochiullazarului.InformatiiActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="271dp"
+        android:text="Comedia Titanic Vals nu şi-a pierdut cu nimic prospeţimea chiar dacă a văzut lumina rampei acum 81 de ani. Secretul longevităţii ni-l dezvăluie chiar dramaturgul: „acțiunea se petrece în zilele noastre, în orice oraş unde există soacre, neveste şi prefecturi.”  Un naufragiu, o moştenire neaşteptată, un candidat surpriză pentru un loc în parlament, un testament misterios, discursuri politice „piramidale” şi buclucuri sentimentale, lovituri de teatru şi răsturnări de situaţie, într-un spectacol-satiră ce dezvăluie noi perspective asupra umorului lui Muşatescu.Va asteptam in numar vat mai mare la spectacolul din aceasta seara!"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp" />
+</android.support.constraint.ConstraintLayout>
