@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:text="orar" />
+            android:text="orarul meu" />
 
         <Button
             android:id="@+id/sali"
@@ -33,6 +33,25 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/orar"
             android:text="sali" />
+
+        <Button
+            android:id="@+id/orarultuturor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/profil"
+            android:text="orarul tuturor "
+            tools:layout_editor_absoluteX="620dp"
+            tools:layout_editor_absoluteY="424dp" />
+
+        <Button
+            android:id="@+id/orarul_profesorilor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/orarultuturor"
+            android:text="Orarul profesorilor" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
