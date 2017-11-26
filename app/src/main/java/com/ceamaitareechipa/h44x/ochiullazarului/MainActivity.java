@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             });
 
 
-        final Button buttonD = findViewById(R.id.button2);
+        final Button buttonD = findViewById(R.id.evenimente);
         buttonD.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ActivitatiActivity.class);
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final Button buttonJ = findViewById(R.id.button3);
+        final Button buttonJ = findViewById(R.id.credits);
         buttonJ.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity.this, Credits.class);

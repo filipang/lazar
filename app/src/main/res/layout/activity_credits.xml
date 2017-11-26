@@ -7,43 +7,6 @@
     tools:context="com.ceamaitareechipa.h44x.ochiullazarului.Credits">
 
     <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="App developed and created by"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="URECHE Tiberiu"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="143dp" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ANGHELUTA Filip"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="109dp" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="JINGA Serban"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="177dp" />
-
-    <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,5 +31,57 @@
         android:textSize="25sp"
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="362dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URECHE Tiberiu"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="227dp"
+            android:layout_marginStart="127dp"
+            android:text="JINGA Serban"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="218dp"
+            android:layout_marginStart="135dp"
+            android:text="ANGHELUTA Filip"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="App developed and created by"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
