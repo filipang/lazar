@@ -12,7 +12,7 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        final Button buttonS = findViewById(R.id.orar);
+        final Button buttonS = findViewById(R.id.button);
         buttonS.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(SignUp.this, MainActivity.class);
