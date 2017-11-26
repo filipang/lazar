@@ -8,7 +8,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="13dp">
 
         <Button
             android:id="@+id/profil"
@@ -16,33 +17,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/sali"
-            android:text="profil" />
-
-        <Button
-            android:id="@+id/orar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:text="orarul meu" />
-
-        <Button
-            android:id="@+id/sali"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/orar"
-            android:text="sali" />
-
-        <Button
-            android:id="@+id/orarultuturor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/profil"
-            android:text="orarul tuturor "
-            tools:layout_editor_absoluteX="620dp"
-            tools:layout_editor_absoluteY="424dp" />
+            android:text="profil"
+            tools:layout_editor_absoluteX="179dp"
+            tools:layout_editor_absoluteY="55dp" />
 
         <Button
             android:id="@+id/orarul_profesorilor"
@@ -50,8 +27,39 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/orarultuturor"
-            android:text="Orarul profesorilor" />
+            android:text="Orarul profesorilor"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="147dp" />
 
+        <Button
+            android:id="@+id/orarultuturor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/orar"
+            android:text="orarul tuturor "
+            tools:layout_editor_absoluteX="620dp"
+            tools:layout_editor_absoluteY="424dp" />
+
+        <Button
+            android:id="@+id/orar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="orarul meu"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <Button
+            android:id="@+id/sali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/orarul_profesorilor"
+            android:text="sali"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="505dp" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
