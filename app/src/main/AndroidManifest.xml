@@ -22,7 +22,9 @@
         <activity android:name=".SALIActivity" />
         <activity android:name=".ProfilulMeu" />
         <activity android:name=".TabelActivity" />
-        <activity android:name=".LitereActivity"></activity>
+        <activity android:name=".LitereActivity" />
+        <activity android:name=".ActivitatiActivity" />
+        <activity android:name=".InformatiiActivity"></activity>
     </application>
 
 </manifest>

@@ -6,16 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SignUp extends AppCompatActivity {
+public class ActivitatiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
-        final Button buttonS = findViewById(R.id.button);
-        buttonS.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_activitati);
+
+        final Button buttonP = findViewById(R.id.detalii);
+        buttonP.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(SignUp.this, MainActivity.class);
+                Intent intent = new Intent(ActivitatiActivity.this, InformatiiActivity.class);
                 startActivity(intent);
             }
         });
