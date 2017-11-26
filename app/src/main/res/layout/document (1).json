@@ -1,0 +1,52 @@
+{
+  "a9a": {
+    "luni":
+    [
+      {
+        "8": "Matematica"
+      },
+      {
+        "9": "Romana"
+      },
+      {
+        "10": "Informatica"
+      },
+      {
+        "11": "Biologie"
+      },
+
+      {
+        "12": "Muzica"
+      },
+
+      {
+        "13": "Sport"
+      }
+    ]
+  },
+  "a9b": {
+    "luni":
+    [
+      {
+        "08": "Romana"
+      },
+      {
+        "09": "Matematica"
+      },
+      {
+        "10": "Desen"
+      },
+      {
+        "11": "Informatica"
+      },
+
+      {
+        "12": "Biologie"
+      },
+
+      {
+        "13": "Fizica"
+      }
+    ]
+  }
+}

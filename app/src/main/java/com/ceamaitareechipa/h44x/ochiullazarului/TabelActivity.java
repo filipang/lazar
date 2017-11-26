@@ -17,63 +17,9 @@ public class TabelActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabel);
 
+        Intent intent = getIntent();
+        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        try {
-            JSONObject test = new JSONObject("{\n" +
-                    "  \"9a\": {\n" +
-                    "    \"luni\":\n" +
-                    "    [\n" +
-                    "      {\n" +
-                    "        \"8\": \"Matematica\"\n" +
-                    "      },\n" +
-                    "      {\n" +
-                    "        \"9\": \"Romana\"\n" +
-                    "      },\n" +
-                    "      {\n" +
-                    "        \"10\": \"Informatica\"\n" +
-                    "      },\n" +
-                    "      {\n" +
-                    "        \"11\": \"Biologie\"\n" +
-                    "      },\n" +
-                    "\n" +
-                    "      {\n" +
-                    "        \"12\": \"Muzica\"\n" +
-                    "      },\n" +
-                    "\n" +
-                    "      {\n" +
-                    "        \"13\": \"Sport\"\n" +
-                    "      }\n" +
-                    "    ]\n" +
-                    "  },\n" +
-                    "  \"9b\": {\n" +
-                    "    \"luni\":\n" +
-                    "    [\n" +
-                    "      {\n" +
-                    "        \"08\": \"Romana\"\n" +
-                    "      },\n" +
-                    "      {\n" +
-                    "        \"09\": \"Matematica\"\n" +
-                    "      },\n" +
-                    "      {\n" +
-                    "        \"10\": \"Desen\"\n" +
-                    "      },\n" +
-                    "      {\n" +
-                    "        \"11\": \"Informatica\"\n" +
-                    "      },\n" +
-                    "\n" +
-                    "      {\n" +
-                    "        \"12\": \"Biologie\"\n" +
-                    "      },\n" +
-                    "\n" +
-                    "      {\n" +
-                    "        \"13\": \"Fizica\"\n" +
-                    "      }\n" +
-                    "    ]\n" +
-                    "  }\n" +
-                    "}");
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
     }
 
 }
