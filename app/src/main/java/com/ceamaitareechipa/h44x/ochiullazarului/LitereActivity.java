@@ -13,13 +13,14 @@ public class LitereActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final String clasa = "9a";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_litere);
-        final JSONObject test;
+        JSONObject test = null;
         try {
             test = new JSONObject("{\n" +
                     "  \"9a\": {\n" +
-                    "    \"luni\":\n" +
+                    "    \"1\":\n" +
                     "    [\n" +
                     "      {\n" +
                     "        \"8\": \"Matematica\"\n" +
@@ -44,7 +45,7 @@ public class LitereActivity extends AppCompatActivity {
                     "    ]\n" +
                     "  },\n" +
                     "  \"9b\": {\n" +
-                    "    \"luni\":\n" +
+                    "    \"1\":\n" +
                     "    [\n" +
                     "      {\n" +
                     "        \"08\": \"Romana\"\n" +
@@ -74,10 +75,11 @@ public class LitereActivity extends AppCompatActivity {
         }
 
         final Button button2 = findViewById(R.id.buttonA);
+        final JSONObject finalTest = test;
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(LitereActivity.this, TabelActivity.class);
-                test.a9a.
+                intent.putExtra("orar", finalTest.optJSONObject(clasa).toString());
                 startActivity(intent);
             }
         });

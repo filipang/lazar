@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/orarul_profesorilor"
             android:layout_centerHorizontal="true"
-            android:text="orarul meu"
+            android:text="orarul elevilor"
             tools:layout_editor_absoluteX="620dp"
             tools:layout_editor_absoluteY="424dp" />
 
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/orarultuturor"
             android:layout_centerHorizontal="true"
-            android:text="orarul elevilor"
+            android:text="orarul meu"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="48dp" />
 
@@ -64,17 +64,6 @@
             android:text="STATUS SALI"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="505dp" />
-
-        <EditText
-            android:id="@+id/editText6"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_alignEnd="@+id/profil"
-            android:layout_alignParentTop="true"
-            android:ems="10"
-            android:inputType="phone"
-            android:text="Erorile pot fi raportate la 0728282"
-            android:textSize="18sp" />
 
         <Button
             android:id="@+id/evenimente"

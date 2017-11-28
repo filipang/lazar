@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        final Button button2 = findViewById(R.id.orar);
+        final Button button2 = findViewById(R.id.orarultuturor);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ORARActivity.class);
