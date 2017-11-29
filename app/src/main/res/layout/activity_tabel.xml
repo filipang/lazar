@@ -14,133 +14,400 @@
         android:rowCount="15">
 
         <TextView
-            android:id="@+id/o8"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:text="8:00" />
-
-        <TextView
-            android:layout_height="wrap_content"
+            android:id="@+id/ziua_1_ora_1"
             android:layout_column="1"
-            android:layout_columnWeight="1"
             android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:text="Mate" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_2"
+            android:layout_column="1"
             android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_3"
+            android:layout_column="1"
             android:layout_row="3"
-            android:layout_rowWeight="1"
-            android:text="Mate" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_4"
+            android:layout_column="1"
             android:layout_row="4"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_5"
+            android:layout_column="1"
             android:layout_row="5"
-            android:layout_rowWeight="1"
-            android:text="Mate" />
-
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
         <TextView
-            android:layout_height="wrap_content"
+            android:id="@+id/ziua_1_ora_6"
             android:layout_column="1"
-            android:layout_columnWeight="1"
             android:layout_row="6"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_7"
+            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_8"
+            android:layout_column="1"
+            android:layout_row="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_9"
+            android:layout_column="1"
+            android:layout_row="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_10"
+            android:layout_column="1"
+            android:layout_row="10"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_11"
+            android:layout_column="1"
+            android:layout_row="11"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_12"
+            android:layout_column="1"
+            android:layout_row="12"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_1_ora_13"
+            android:layout_column="1"
+            android:layout_row="13"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
 
         <TextView
-            android:layout_height="wrap_content"
+            android:id="@+id/ziua_2_ora_1"
             android:layout_column="2"
-            android:layout_columnWeight="1"
             android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:text="Mate" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="2"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_2"
+            android:layout_column="2"
             android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_3"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_4"
+            android:layout_column="2"
+            android:layout_row="4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_5"
+            android:layout_column="2"
+            android:layout_row="5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_6"
+            android:layout_column="2"
+            android:layout_row="6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_7"
+            android:layout_column="2"
+            android:layout_row="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_8"
+            android:layout_column="2"
+            android:layout_row="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_9"
+            android:layout_column="2"
+            android:layout_row="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_10"
+            android:layout_column="2"
+            android:layout_row="10"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_11"
+            android:layout_column="2"
+            android:layout_row="11"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_12"
+            android:layout_column="2"
+            android:layout_row="12"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_2_ora_13"
+            android:layout_column="2"
+            android:layout_row="13"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
 
         <TextView
-            android:layout_height="wrap_content"
+            android:id="@+id/ziua_3_ora_1"
             android:layout_column="3"
+            android:layout_row="1"
             android:layout_columnWeight="1"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
-
+            android:layout_rowWeight="1"/>
         <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="4"
-            android:layout_columnWeight="1"
+            android:id="@+id/ziua_3_ora_2"
+            android:layout_column="3"
             android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="5"
             android:layout_columnWeight="1"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
-
+            android:layout_rowWeight="1"/>
         <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="2"
-            android:layout_columnWeight="1"
+            android:id="@+id/ziua_3_ora_3"
+            android:layout_column="3"
             android:layout_row="3"
-            android:layout_rowWeight="1"
-            android:text="Mate" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="2"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_4"
+            android:layout_column="3"
             android:layout_row="4"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
-
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="2"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_5"
+            android:layout_column="3"
             android:layout_row="5"
-            android:layout_rowWeight="1"
-            android:text="Mate" />
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_6"
+            android:layout_column="3"
+            android:layout_row="6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_7"
+            android:layout_column="3"
+            android:layout_row="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_8"
+            android:layout_column="3"
+            android:layout_row="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_9"
+            android:layout_column="3"
+            android:layout_row="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_10"
+            android:layout_column="3"
+            android:layout_row="10"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_11"
+            android:layout_column="3"
+            android:layout_row="11"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_12"
+            android:layout_column="3"
+            android:layout_row="12"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_3_ora_13"
+            android:layout_column="3"
+            android:layout_row="13"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
 
         <TextView
-            android:layout_height="wrap_content"
-            android:layout_column="2"
+            android:id="@+id/ziua_4_ora_1"
+            android:layout_column="4"
+            android:layout_row="1"
             android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_2"
+            android:layout_column="4"
+            android:layout_row="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_3"
+            android:layout_column="4"
+            android:layout_row="3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_4"
+            android:layout_column="4"
+            android:layout_row="4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_5"
+            android:layout_column="4"
+            android:layout_row="5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_6"
+            android:layout_column="4"
             android:layout_row="6"
-            android:layout_rowWeight="1"
-            android:text="Romana" />
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_7"
+            android:layout_column="4"
+            android:layout_row="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_8"
+            android:layout_column="4"
+            android:layout_row="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_9"
+            android:layout_column="4"
+            android:layout_row="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_10"
+            android:layout_column="4"
+            android:layout_row="10"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_11"
+            android:layout_column="4"
+            android:layout_row="11"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_12"
+            android:layout_column="4"
+            android:layout_row="12"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_4_ora_13"
+            android:layout_column="4"
+            android:layout_row="13"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <TextView
+            android:id="@+id/ziua_5_ora_1"
+            android:layout_column="5"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_2"
+            android:layout_column="5"
+            android:layout_row="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_3"
+            android:layout_column="5"
+            android:layout_row="3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_4"
+            android:layout_column="5"
+            android:layout_row="4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_5"
+            android:layout_column="5"
+            android:layout_row="5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_6"
+            android:layout_column="5"
+            android:layout_row="6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_7"
+            android:layout_column="5"
+            android:layout_row="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_8"
+            android:layout_column="5"
+            android:layout_row="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_9"
+            android:layout_column="5"
+            android:layout_row="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_10"
+            android:layout_column="5"
+            android:layout_row="10"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_11"
+            android:layout_column="5"
+            android:layout_row="11"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_12"
+            android:layout_column="5"
+            android:layout_row="12"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+        <TextView
+            android:id="@+id/ziua_5_ora_13"
+            android:layout_column="5"
+            android:layout_row="13"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
 
 
         <TextView
@@ -148,118 +415,105 @@
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="2"
+            android:layout_row="1"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_1" />
-
         <TextView
             android:id="@+id/textOra2"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="3"
+            android:layout_row="2"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_2" />
-
         <TextView
             android:id="@+id/textOra3"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="4"
+            android:layout_row="3"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_3" />
-
         <TextView
             android:id="@+id/textOra4"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="5"
+            android:layout_row="4"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_4" />
-
         <TextView
             android:id="@+id/textOra5"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="6"
+            android:layout_row="5"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_5" />
-
         <TextView
             android:id="@+id/textOra6"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="7"
+            android:layout_row="6"
             android:layout_rowWeight="1"
-            android:text="@string/textOra6" />
-
+            android:text="@string/text_ora_6" />
         <TextView
             android:id="@+id/textOra7"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="8"
+            android:layout_row="7"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_7" />
-
         <TextView
             android:id="@+id/textOra8"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="9"
+            android:layout_row="8"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_8" />
-
         <TextView
             android:id="@+id/textOra9"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="10"
+            android:layout_row="9"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_9" />
-
         <TextView
             android:id="@+id/textOra10"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="11"
+            android:layout_row="10"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_10" />
-
         <TextView
             android:id="@+id/textOra11"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="12"
+            android:layout_row="11"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_11" />
-
         <TextView
             android:id="@+id/textOra12"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="13"
+            android:layout_row="12"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_12" />
-
         <TextView
             android:id="@+id/textOra13"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:layout_row="14"
+            android:layout_row="13"
             android:layout_rowWeight="1"
             android:text="@string/text_ora_13" />
-
 
         <TextView
             android:id="@+id/textZiuaSapt1"
@@ -269,7 +523,6 @@
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:text="@string/ziua_sapt_1" />
-
         <TextView
             android:id="@+id/textZiuaSapt2"
             android:layout_height="wrap_content"
@@ -278,7 +531,6 @@
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:text="@string/ziua_sapt_2" />
-
         <TextView
             android:id="@+id/textZiuaSapt3"
             android:layout_height="wrap_content"
@@ -287,7 +539,6 @@
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:text="@string/ziua_sapt_3" />
-
         <TextView
             android:id="@+id/textZiuaSapt4"
             android:layout_height="wrap_content"
@@ -297,7 +548,6 @@
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:text="@string/ziua_sapt_4" />
-
         <TextView
             android:id="@+id/textZiuaSapt5"
             android:layout_height="wrap_content"
