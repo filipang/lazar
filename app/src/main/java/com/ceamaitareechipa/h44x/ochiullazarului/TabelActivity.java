@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 public class TabelActivity extends AppCompatActivity {
 
@@ -18,18 +19,23 @@ public class TabelActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabel);
+        TextView textViewTitlu = findViewById(R.id.tabelOrarTitlu);
+        textViewTitlu.setText("orarul clasei " +  getIntent().getStringExtra("clasa"));
+
+        String json = getIntent().getStringExtra("orar");
+        JSONObject jsonObject = null;
+        try {
+            jsonObject = new JSONObject(json);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         int row;
         int col;
         for (col = 1; col <= 5; col++){
             for (row = 1; row <= 13; row++){
                 int id = getResources().getIdentifier("ziua_"+col+"_ora_"+row, "id", getPackageName());
                 TextView textView = findViewById(id);
-                try {
-                    JSONObject obj = new JSONObject("{\"9a\":\"Romana\"}");
-                    textView.setText(obj.getString("9a"));
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+                textView.setText(jsonObject.optJSONObject(""+col).optString(""+row));
             }
         }
 

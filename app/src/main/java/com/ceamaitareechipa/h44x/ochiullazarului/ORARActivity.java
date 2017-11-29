@@ -17,7 +17,35 @@ public class ORARActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(ORARActivity.this, LitereActivity.class);
-                startActivity(intent);//AAAAAAAAAAAA
+                intent.putExtra("numar_clasa", "9");
+                startActivity(intent);
+            }
+        });
+
+        final Button button4 = findViewById(R.id.cls10);
+        button4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(ORARActivity.this, LitereActivity.class);
+                intent.putExtra("numar_clasa", "10");
+                startActivity(intent);
+            }
+        });
+
+        final Button button5 = findViewById(R.id.cls11);
+        button5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(ORARActivity.this, LitereActivity.class);
+                intent.putExtra("numar_clasa", "11");
+                startActivity(intent);
+            }
+        });
+
+        final Button button6 = findViewById(R.id.cls12);
+        button6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(ORARActivity.this, LitereActivity.class);
+                intent.putExtra("numar_clasa", "12");
+                startActivity(intent);
             }
         });
 

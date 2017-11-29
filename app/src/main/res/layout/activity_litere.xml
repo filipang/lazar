@@ -12,17 +12,19 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/buttonA"
+            android:id="@+id/button_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="9A" />
 
         <Button
+            android:id="@+id/button_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="9B" />
 
         <Button
+            android:id="@+id/button_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="9C" />
