@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Ochiul Lazarului</string>
+    <string name="ziua_sapt_5">Vineri</string>
+    <string name="ziua_sapt_4">Joi</string>
+    <string name="ziua_sapt_3">Miercuri</string>
+    <string name="ziua_sapt_2">Marti</string>
+    <string name="ziua_sapt_1">Luni</string>
+    <string name="text_ora_1">9:00</string>
+    <string name="text_ora_2">10:00</string>
+    <string name="text_ora_3">11:00</string>
+    <string name="text_ora_4">12:00</string>
+    <string name="text_ora_5">13:00</string>
+    <string name="textOra6">14:00</string>
+    <string name="text_ora_7">15:00</string>
+    <string name="text_ora_8">16:00</string>
+    <string name="text_ora_9">17:00</string>
+    <string name="text_ora_10">18:00</string>
+    <string name="text_ora_11">19:00</string>
+    <string name="text_ora_12">20:00</string>
+    <string name="text_ora_13">21:00</string>
 </resources>
