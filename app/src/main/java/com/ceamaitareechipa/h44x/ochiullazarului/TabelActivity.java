@@ -18,6 +18,22 @@ public class TabelActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabel);
+        int row;
+        int col;
+        for (col = 1; col <= 5; col++){
+            for (row = 1; row <= 13; row++){
+                int id = getResources().getIdentifier("ziua_"+col+"_ora_"+row, "id", getPackageName());
+                TextView textView = findViewById(id);
+                try {
+                    JSONObject obj = new JSONObject("{\"9a\":\"Romana\"}");
+                    textView.setText(obj.getString("9a"));
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
         }
 
 
