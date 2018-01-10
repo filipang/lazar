@@ -26,6 +26,16 @@ public class HomrActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_homr);
 
+        final Button buttonLista = findViewById(R.id.button_test);
+        buttonLista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomrActivity.this, ListaEleviActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
         myLayout = (ConstraintLayout) findViewById(R.id.myLayout);
         animationDrawable = (AnimationDrawable) myLayout.getBackground();
         animationDrawable.setEnterFadeDuration(4500);
