@@ -3,6 +3,8 @@ package com.ceamaitareechipa.h44x.ochiullazarului;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,11 +17,21 @@ import org.w3c.dom.Text;
 
 public class HomrActivity extends AppCompatActivity {
 
+    ConstraintLayout myLayout;
+    AnimationDrawable animationDrawable;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_homr);
+
+        myLayout = (ConstraintLayout) findViewById(R.id.myLayout);
+        animationDrawable = (AnimationDrawable) myLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(4500);
+        animationDrawable.setExitFadeDuration(4500);
+        animationDrawable.start();
+
 
         final Button button3 = findViewById(R.id.button_sign_up);
         button3.setOnClickListener(new View.OnClickListener() {
