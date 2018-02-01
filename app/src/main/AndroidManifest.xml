@@ -26,7 +26,12 @@
         <activity android:name=".ListaEleviActivity" />
         <activity android:name=".ActivitatiActivity" />
         <activity android:name=".InformatiiActivity" />
-        <activity android:name=".LitereActivity"></activity>
+        <activity android:name=".LitereActivity" />
+
+        <service
+            android:name=".NotificationService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
