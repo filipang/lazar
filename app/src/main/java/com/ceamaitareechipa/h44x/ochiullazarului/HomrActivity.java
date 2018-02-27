@@ -42,7 +42,13 @@ public class HomrActivity extends AppCompatActivity {
         animationDrawable.setExitFadeDuration(4500);
         animationDrawable.start();
 
-
+        final Button button_test = findViewById(R.id.button_test);
+        button_test.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(HomrActivity.this, ListaEleviActivity.class);
+                startActivity(intent);
+            }
+        });
         final Button button3 = findViewById(R.id.button_sign_up);
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

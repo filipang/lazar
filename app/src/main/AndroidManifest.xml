@@ -26,7 +26,10 @@
         <activity android:name=".ListaEleviActivity" />
         <activity android:name=".ActivitatiActivity" />
         <activity android:name=".InformatiiActivity" />
-        <activity android:name=".LitereActivity"></activity>
+        <activity android:name=".LitereActivity" />
+        <activity android:name=".ExameneActivity"/>
+        <activity android:name=".Test"/>
+        <activity android:name=".Chat"></activity>
     </application>
 
 </manifest>

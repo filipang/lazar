@@ -39,9 +39,9 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/orarul_profesorilor"
             android:layout_centerHorizontal="true"
-            android:text="orarul elevilor"
             tools:layout_editor_absoluteX="620dp"
-            tools:layout_editor_absoluteY="424dp" />
+            tools:layout_editor_absoluteY="424dp"
+            />
 
         <Button
             android:id="@+id/orar"
@@ -69,7 +69,6 @@
             android:id="@+id/evenimente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/editText6"
             android:layout_centerHorizontal="true"
             android:text="EVENIMENTE"
             android:textSize="25sp" />
@@ -82,6 +81,33 @@
             android:layout_centerHorizontal="true"
             android:text="CREDITS"
             android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/gotoexamen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/evenimente"
+            android:layout_centerHorizontal="true"
+            android:text="EXAMENE"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/profil"
+            android:layout_centerHorizontal="true"
+            android:text="Chat" />
+
+        <Button
+            android:id="@+id/buttonsmc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orarul_profesorilor"
+            android:layout_marginTop="13dp"
+            android:layout_toStartOf="@+id/gotoexamen"
+            android:text="Test" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
