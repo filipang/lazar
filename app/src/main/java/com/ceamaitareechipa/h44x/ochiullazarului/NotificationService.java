@@ -78,16 +78,16 @@ public class NotificationService extends Service {
                     if (!HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + (7)).equals("")) {
                         if (offset/60 == 19) {
                             if (60 - offset % 60 == 1) {
-                                text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset/ 60 + " minut si " + offset % 60 + " secunda.";
+                                text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset/ 60 + " min " + offset % 60 + " sec";
                             } else {
-                                text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset / 60 + " minut si " + offset % 60 + " secunde.";
+                                text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset / 60 + " min " + offset % 60 + " sec";
 
                             }
                         } else {
                             if (60 - offset % 60 == 1) {
-                                text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset / 60 + " minute si " + offset % 60 + " secunda.";
+                                text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset / 60 + " min " + offset % 60 + " sec";
                             } else {
-                                text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset / 60 + " minute si " + offset % 60 + " secunda.";
+                                text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + 7) + " incepe peste " + offset / 60 + " min " + offset % 60 + " sec";
                             }
                         }
                     } else {
@@ -111,16 +111,16 @@ public class NotificationService extends Service {
                         if (!HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex).equals("")) {
                             if (offset / 60 == 1) {
                                 if (offset % 60 == 1) {
-                                    text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " minut si " + offset % 60 + " secunda.";
+                                    text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " min " + offset % 60 + " sec";
                                 } else {
-                                    text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " minut si " + offset % 60 + " secunde.";
+                                    text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " min " + offset % 60 + " sec";
 
                                 }
                             } else {
                                 if (60 - offset % 60 == 1) {
-                                    text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " minute si " + offset % 60 + " secunda.";
+                                    text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " min " + offset % 60 + " sec";
                                 } else {
-                                    text = "Ora de " + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " minute si " + offset % 60 + " secunde.";
+                                    text = "" + HomrActivity.orarJSON.getJSONObject("9c").getJSONObject("" + dayValue).optString("" + hourIndex) + " a inceput acum " + offset / 60 + " min " + offset % 60 + " sec";
                                 }
                             }
                         } else {
