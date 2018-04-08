@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\serban\lazar\OchiulLazarului.iml" filepath="C:\Users\serban\lazar\OchiulLazarului.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\serban\lazar\app\app.iml" filepath="C:\Users\serban\lazar\app\app.iml" />
-      <module fileurl="file://C:\Users\User\Documents\GitHub\lazar\app\app.iml" filepath="C:\Users\User\Documents\GitHub\lazar\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lazar.iml" filepath="$PROJECT_DIR$/lazar.iml" />
-      <module fileurl="file://C:\Users\User\Documents\GitHub\lazar\lazar.iml" filepath="C:\Users\User\Documents\GitHub\lazar\lazar.iml" />
     </modules>
   </component>
 </project>
