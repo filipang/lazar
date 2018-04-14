@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/my_bg_anim"
     android:id="@+id/myLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,24 +14,17 @@
         android:layout_marginTop="8dp"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
-
-        <Button
-            android:id="@+id/button_test"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lista Elevi"
-
-            />
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
 
         <Button
             android:id="@+id/button_sign_up"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_width="180dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/button_log_in"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="48dp"
-            android:text="Esti nou? Inregistreaza-te"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/inreg"
             tools:layout_editor_absoluteX="80dp"
             tools:layout_editor_absoluteY="231dp" />
 
@@ -41,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/editText2"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="21dp"
+            android:layout_marginTop="19dp"
             android:text="Pastreaza-ma conectat"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="108dp" />
@@ -53,8 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/checkBox"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp"
-            android:text="Conecteaza-te"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/conn"
             android:visibility="visible"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="140dp" />
@@ -63,10 +56,11 @@
             android:id="@+id/editText2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/editText"
-            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/pas2"
             android:ems="10"
-            android:hint="Parola"
             android:inputType="textPassword"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="62dp" />
@@ -75,11 +69,11 @@
             android:id="@+id/editText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/editText2"
-            android:layout_alignEnd="@+id/button_sign_up"
-            android:layout_marginBottom="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="185dp"
+            android:background="@drawable/email2"
             android:ems="10"
-            android:hint="Adresa de email"
             android:inputType="textEmailAddress"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -88,9 +82,9 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/editText"
-            android:layout_alignEnd="@+id/checkBox"
-            android:paddingBottom="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
             app:srcCompat="@drawable/logolzr3" />
 
     </RelativeLayout>

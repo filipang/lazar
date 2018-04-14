@@ -21,8 +21,6 @@ import org.json.JSONObject;
 
 public class HomrActivity extends AppCompatActivity {
 
-    ConstraintLayout myLayout;
-    AnimationDrawable animationDrawable;
     public static JSONObject orarJSON;
 
 
@@ -964,29 +962,10 @@ public class HomrActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homr);
 
-        final Button buttonLista = findViewById(R.id.button_test);
-        buttonLista.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HomrActivity.this, ListaEleviActivity.class);
-                startActivity(intent);
-            }
-        });
 
 
-        myLayout = (ConstraintLayout) findViewById(R.id.myLayout);
-        animationDrawable = (AnimationDrawable) myLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(4500);
-        animationDrawable.setExitFadeDuration(4500);
-        animationDrawable.start();
 
-        final Button button_test = findViewById(R.id.button_test);
-        button_test.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent = new Intent(HomrActivity.this, ListaEleviActivity.class);
-                startActivity(intent);
-            }
-        });
+
         final Button button3 = findViewById(R.id.button_sign_up);
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -999,15 +978,14 @@ public class HomrActivity extends AppCompatActivity {
         final EditText password = findViewById(R.id.editText2);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if (email.getText().length()!=0 && password.getText().length()!=0){
+                if (email.getText().length() != 0 && password.getText().length() != 0) {
                     Intent intent = new Intent(HomrActivity.this, MainActivity.class);
                     startActivity(intent);
-                }
-                else {
+                } else {
                     AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(HomrActivity.this);
                     final TextView text = new TextView(HomrActivity.this);
                     text.setText("Introdu parola si adresa de email!");
-                    text.setPadding(50,50,0,0);
+                    text.setPadding(50, 50, 0, 0);
                     // set prompts.xml to alertdialog builder
                     alertDialogBuilder.setView(text);
                     // set dialog message
@@ -1022,7 +1000,7 @@ public class HomrActivity extends AppCompatActivity {
                 }
 
             }
-        });
+        } );
 
         startService(new Intent(this, NotificationService.class));
     }

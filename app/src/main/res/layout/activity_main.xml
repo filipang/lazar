@@ -9,7 +9,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="13dp">
+        android:padding="13dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
 
         <Button
             android:id="@+id/profil"
@@ -24,32 +27,12 @@
             tools:layout_editor_absoluteY="55dp" />
 
         <Button
-            android:id="@+id/orarul_profesorilor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text="Orarul profesorilor"
-            tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="147dp" />
-
-        <Button
-            android:id="@+id/orarultuturor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/orarul_profesorilor"
-            android:layout_centerHorizontal="true"
-            tools:layout_editor_absoluteX="620dp"
-            tools:layout_editor_absoluteY="424dp"
-            />
-
-        <Button
             android:id="@+id/orar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/orarultuturor"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/evenimente"
             android:layout_centerHorizontal="true"
-            android:text="orarul meu"
+            android:background="@drawable/orarnorm"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="48dp" />
 
@@ -67,19 +50,20 @@
 
         <Button
             android:id="@+id/evenimente"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="EVENIMENTE"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/sali"
+            android:layout_marginBottom="14dp"
+            android:background='@drawable/events'
             android:textSize="25sp" />
 
         <Button
             android:id="@+id/credits"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/sali"
-            android:layout_centerHorizontal="true"
-            android:text="CREDITS"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:background='@drawable/group'
             android:textSize="25sp" />
 
         <Button
@@ -91,22 +75,14 @@
             android:text="EXAMENE"
             android:textSize="25sp" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/profil"
+        <View
+            android:id="@+id/divider"
+            android:layout_width="100000dp"
+            android:layout_height="5dp"
+            android:layout_alignTop="@+id/evenimente"
             android:layout_centerHorizontal="true"
-            android:text="Chat" />
-
-        <Button
-            android:id="@+id/buttonsmc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/orarul_profesorilor"
-            android:layout_marginTop="13dp"
-            android:layout_toStartOf="@+id/gotoexamen"
-            android:text="Test" />
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
 
     </RelativeLayout>
 
