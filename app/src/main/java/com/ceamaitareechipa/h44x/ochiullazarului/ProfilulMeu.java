@@ -16,7 +16,7 @@ public class ProfilulMeu extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intent = new Intent(ProfilulMeu.this, HomrActivity.class);
+                Intent intent = new Intent(ProfilulMeu.this, LoginActivity.class);
                 startActivity(intent);
             }
         });

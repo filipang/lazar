@@ -6,15 +6,23 @@
     android:layout_height="match_parent"
     tools:context="com.ceamaitareechipa.h44x.ochiullazarului.ORARActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="420dp"
+        android:layout_height="587dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52">
+
 
         <Button
             android:id="@+id/cls9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
             android:text="CLASA A 9-A"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -23,6 +31,8 @@
             android:id="@+id/cls10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="72dp"
             android:text="CLASA A 10-A"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="64dp" />
@@ -31,6 +41,8 @@
             android:id="@+id/cls11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="133dp"
             android:text="CLASA A 11-A"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="112dp" />
@@ -39,8 +51,51 @@
             android:id="@+id/cls12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="193dp"
             android:text="CLASA A 12-A"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="160dp" />
-    </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="100000dp"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="75dp"
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/evenimente"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="27dp"
+            android:layout_marginStart="62dp"
+            android:background='@drawable/eve'
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/gotoexamen"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/evenimente"
+            android:layout_marginEnd="58dp"
+            android:background='@drawable/examsnorm'
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/orar"
+            android:layout_width="80dp"
+            android:layout_height="56dp"
+            android:layout_alignTop="@+id/divider"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/orarmod"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

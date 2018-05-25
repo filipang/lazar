@@ -8,78 +8,34 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp">
 
         <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
+            android:id="@+id/txtinfo"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text="JINGA Serban"
-            android:textSize="25sp" />
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:text="App developed and created by"
-            android:textAlignment="center"
-            android:textSize="30sp"/>
+            android:layout_alignStart="@+id/info"
+            android:layout_marginTop="27dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="''Ce?'' si ''De ce?''"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
+            android:id="@+id/info"
+            android:layout_width="349dp"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/textView20"
-            android:text="ANGHELUTA Filip"
-            android:textSize="25sp"
-            android:layout_centerHorizontal="true"/>
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/textView20"
+            android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="84dp"
-            android:text="COLEGIUL NATIONAL      GHEORGHE LAZAR"
-            android:textAlignment="center"
-            android:textSize="25sp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="255dp" />
-
-        <RatingBar
-            android:id="@+id/ratingBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView21"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="415dp" />
-
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/textView18"
-            android:layout_below="@+id/ratingBar"
-            android:text="RATE OUR APP!"
-            android:textSize="25sp"
-            tools:layout_editor_absoluteX="105dp"
-            tools:layout_editor_absoluteY="362dp" />
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_above="@+id/textView19"
-            android:text="URECHE Tiberiu"
-            android:textSize="25sp"/>
+            android:layout_marginTop="77dp"
+            android:text="      ''Helpify'' este o aplicatie realizata de elevi pentru elevi, oferind ajutor in domeniul cunoasterii propriului liceu, socializarii cu ceilalti elevi, schimbului de materiale si informatii si, nu in ultimul rand, orientarii catre un viitor de succes."
+            android:textAlignment="textStart"
+            android:textSize="20dp" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

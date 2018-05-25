@@ -1,5 +1,6 @@
 package com.ceamaitareechipa.h44x.ochiullazarului;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -49,5 +50,13 @@ public class ORARActivity extends AppCompatActivity {
             }
         });
 
+
+        final Button buttonev = findViewById(R.id.evenimente);
+        buttonev.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(ORARActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

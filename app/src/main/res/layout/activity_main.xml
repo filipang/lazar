@@ -7,24 +7,12 @@
     tools:context="com.ceamaitareechipa.h44x.ochiullazarului.MainActivity">
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="412dp"
         android:layout_height="match_parent"
         android:padding="13dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints">
-
-        <Button
-            android:id="@+id/profil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginBottom="85dp"
-            android:layout_marginEnd="29dp"
-            android:text="PROFILUL MEU"
-            tools:layout_editor_absoluteX="179dp"
-            tools:layout_editor_absoluteY="55dp" />
+        tools:layout_editor_absoluteY="0dp">
 
         <Button
             android:id="@+id/orar"
@@ -37,13 +25,23 @@
             tools:layout_editor_absoluteY="48dp" />
 
         <Button
+            android:id="@+id/gotoexamen"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/orar"
+            android:layout_marginEnd="58dp"
+            android:background="@drawable/examsnorm"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <Button
             android:id="@+id/sali"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/profil"
-            android:layout_alignBottom="@+id/profil"
-            android:layout_marginEnd="45dp"
-            android:layout_toStartOf="@+id/profil"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/orar"
+            android:layout_marginTop="158dp"
             android:text="STATUS SALI"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="505dp" />
@@ -52,9 +50,9 @@
             android:id="@+id/evenimente"
             android:layout_width="80dp"
             android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/sali"
-            android:layout_marginBottom="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/divider"
+            android:layout_marginStart="27dp"
             android:background='@drawable/events'
             android:textSize="25sp" />
 
@@ -62,27 +60,85 @@
             android:id="@+id/credits"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentEnd="true"
+            android:layout_alignEnd="@+id/divider"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
             android:background='@drawable/group'
-            android:textSize="25sp" />
-
-        <Button
-            android:id="@+id/gotoexamen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/evenimente"
-            android:layout_centerHorizontal="true"
-            android:text="EXAMENE"
             android:textSize="25sp" />
 
         <View
             android:id="@+id/divider"
             android:layout_width="100000dp"
             android:layout_height="5dp"
-            android:layout_alignTop="@+id/evenimente"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
+            android:layout_marginBottom="63dp"
             android:background="@android:color/darker_gray"
             android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/wlcm"
+            android:layout_width="330dp"
+            android:layout_height="59dp"
+            android:layout_alignTop="@+id/credits"
+            android:fontFamily="@font/roboto_thin"
+            android:text="Bine ai venit, utilizator!"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="99dp"
+            android:layout_height="122dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="106dp"
+            app:srcCompat="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="228dp"
+            android:paddingTop="30dp"
+            android:text='La ora 18:00 va avea loc in Sala de festivitati spectacolul "Titanic Vals"!' />
+
+        <Button
+            android:id="@+id/detalii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="176dp"
+            android:layout_marginEnd="21dp"
+            android:text="Vezi detalii" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/orar"
+            android:layout_marginTop="112dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="Clasa 9B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/divider"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/roboto_thin"
+            android:text="Noutati"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
     </RelativeLayout>
 

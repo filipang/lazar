@@ -1,13 +1,7 @@
 package com.ceamaitareechipa.h44x.ochiullazarului;
 
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.drawable.AnimationDrawable;
-import android.os.Handler;
-import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,14 +13,13 @@ import android.widget.TextView;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class HomrActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     public static JSONObject orarJSON;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
 
         try {
             orarJSON = new JSONObject("{\n" +
@@ -35,11 +28,11 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"1\": \"\",\n" +
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
-                    "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
+                    "      \"4\": \"Engleza\",\n" +
+                    "      \"5\": \"Dirigentie\",\n" +
+                    "      \"6\": \"Educatie Fizica\",\n" +
+                    "      \"7\": \"Fizica\",\n" +
+                    "      \"8\": \"Fizica\",\n" +
                     "      \"9\": \"\",\n" +
                     "      \"10\": \"\",\n" +
                     "      \"11\": \"\",\n" +
@@ -53,11 +46,11 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"4\": \"\",\n" +
                     "      \"5\": \"\",\n" +
                     "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
-                    "      \"10\": \"\",\n" +
-                    "      \"11\": \"\",\n" +
+                    "      \"7\": \"Germana\",\n" +
+                    "      \"8\": \"Engleza\",\n" +
+                    "      \"9\": \"Informatica\",\n" +
+                    "      \"10\": \"Matematica\",\n" +
+                    "      \"11\": \"Desen\",\n" +
                     "      \"12\": \"\",\n" +
                     "      \"13\": \"\"\n" +
                     "    },\n" +
@@ -67,11 +60,11 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"3\": \"\",\n" +
                     "      \"4\": \"\",\n" +
                     "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
-                    "      \"10\": \"\",\n" +
+                    "      \"6\": \"Matematica\",\n" +
+                    "      \"7\": \"Romana\",\n" +
+                    "      \"8\": \"Sport\",\n" +
+                    "      \"9\": \"Informatica\",\n" +
+                    "      \"10\": \"Informatica\",\n" +
                     "      \"11\": \"\",\n" +
                     "      \"12\": \"\",\n" +
                     "      \"13\": \"\"\n" +
@@ -81,12 +74,12 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
                     "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
-                    "      \"10\": \"\",\n" +
+                    "      \"5\": \"Educatie Fizica\",\n" +
+                    "      \"6\": \"Romana\",\n" +
+                    "      \"7\": \"Muzica\",\n" +
+                    "      \"8\": \"Geografie\",\n" +
+                    "      \"9\": \"Romana\",\n" +
+                    "      \"10\": \"Logica\",\n" +
                     "      \"11\": \"\",\n" +
                     "      \"12\": \"\",\n" +
                     "      \"13\": \"\"\n" +
@@ -96,12 +89,12 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
                     "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
-                    "      \"10\": \"\",\n" +
+                    "      \"5\": \"Chimie\",\n" +
+                    "      \"6\": \"Chimie\",\n" +
+                    "      \"7\": \"Biologie\",\n" +
+                    "      \"8\": \"Matematica\",\n" +
+                    "      \"9\": \"Religie\",\n" +
+                    "      \"10\": \"Istorie\",\n" +
                     "      \"11\": \"\",\n" +
                     "      \"12\": \"\",\n" +
                     "      \"13\": \"\"\n" +
@@ -112,12 +105,12 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"1\": \"\",\n" +
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
-                    "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
+                    "      \"4\": \"Religie\",\n" +
+                    "      \"5\": \"Engleza\",\n" +
+                    "      \"6\": \"Germana\",\n" +
+                    "      \"7\": \"Logica\",\n" +
+                    "      \"8\": \"Desen\",\n" +
+                    "      \"9\": \"Muzica\",\n" +
                     "      \"10\": \"\",\n" +
                     "      \"11\": \"\",\n" +
                     "      \"12\": \"\",\n" +
@@ -128,13 +121,13 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
                     "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
-                    "      \"10\": \"\",\n" +
-                    "      \"11\": \"\",\n" +
+                    "      \"5\": \"Matematica\",\n" +
+                    "      \"6\": \"Chimie\",\n" +
+                    "      \"7\": \"Romana\",\n" +
+                    "      \"8\": \"Fizica\",\n" +
+                    "      \"9\": \"Romana\",\n" +
+                    "      \"10\": \"Informatica\",\n" +
+                    "      \"11\": \"Fizica\",\n" +
                     "      \"12\": \"\",\n" +
                     "      \"13\": \"\"\n" +
                     "    },\n" +
@@ -143,12 +136,12 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
                     "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
-                    "      \"10\": \"\",\n" +
+                    "      \"5\": \"Geografie\",\n" +
+                    "      \"6\": \"Biologie\",\n" +
+                    "      \"7\": \"Germana\",\n" +
+                    "      \"8\": \"Matematica\",\n" +
+                    "      \"9\": \"Matematica\",\n" +
+                    "      \"10\": \"Sport\",\n" +
                     "      \"11\": \"\",\n" +
                     "      \"12\": \"\",\n" +
                     "      \"13\": \"\"\n" +
@@ -158,13 +151,13 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
                     "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
-                    "      \"10\": \"\",\n" +
-                    "      \"11\": \"\",\n" +
+                    "      \"5\": \"Chimie\",\n" +
+                    "      \"6\": \"Matematica\",\n" +
+                    "      \"7\": \"Istorie\",\n" +
+                    "      \"8\": \"Informatica\",\n" +
+                    "      \"9\": \"Engleza\",\n" +
+                    "      \"10\": \"Dirigentie\",\n" +
+                    "      \"11\": \"Fizica\",\n" +
                     "      \"12\": \"\",\n" +
                     "      \"13\": \"\"\n" +
                     "    },\n" +
@@ -173,11 +166,11 @@ public class HomrActivity extends AppCompatActivity {
                     "      \"2\": \"\",\n" +
                     "      \"3\": \"\",\n" +
                     "      \"4\": \"\",\n" +
-                    "      \"5\": \"\",\n" +
-                    "      \"6\": \"\",\n" +
-                    "      \"7\": \"\",\n" +
-                    "      \"8\": \"\",\n" +
-                    "      \"9\": \"\",\n" +
+                    "      \"5\": \"Informatica\",\n" +
+                    "      \"6\": \"Informatica\",\n" +
+                    "      \"7\": \"Biologie\",\n" +
+                    "      \"8\": \"Romana\",\n" +
+                    "      \"9\": \"Romana\",\n" +
                     "      \"10\": \"\",\n" +
                     "      \"11\": \"\",\n" +
                     "      \"12\": \"\",\n" +
@@ -960,30 +953,33 @@ public class HomrActivity extends AppCompatActivity {
         }
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homr);
-
-
-
-
+        setContentView(R.layout.activity_login);
 
         final Button button3 = findViewById(R.id.button_sign_up);
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(HomrActivity.this, SignUp.class);
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 startActivity(intent);
             }
         });
         final Button button2 = findViewById(R.id.button_log_in);
+        final Button buttonJ = findViewById(R.id.credits);
+        buttonJ.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(LoginActivity.this, CreditsActivity.class);
+                startActivity(intent);
+            }
+        });
         final EditText email = findViewById(R.id.editText);
         final EditText password = findViewById(R.id.editText2);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (email.getText().length() != 0 && password.getText().length() != 0) {
-                    Intent intent = new Intent(HomrActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
                 } else {
-                    AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(HomrActivity.this);
-                    final TextView text = new TextView(HomrActivity.this);
+                    AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(LoginActivity.this);
+                    final TextView text = new TextView(LoginActivity.this);
                     text.setText("Introdu parola si adresa de email!");
                     text.setPadding(50, 50, 0, 0);
                     // set prompts.xml to alertdialog builder

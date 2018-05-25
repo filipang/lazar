@@ -1,5 +1,6 @@
 package com.ceamaitareechipa.h44x.ochiullazarului;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ public class LitereActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_litere);
         final String clasa = getIntent().getStringExtra("numar_clasa");
-        final JSONObject finalTest = HomrActivity.orarJSON;
+        final JSONObject finalTest = LoginActivity.orarJSON;
         char litera_clasa = 'a';
         for(int i =1; i<= 3;i++) {
             final char litera_final = litera_clasa;
