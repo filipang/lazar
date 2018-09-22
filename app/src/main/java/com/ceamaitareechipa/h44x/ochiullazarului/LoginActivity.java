@@ -998,7 +998,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         } );
 
-        startService(new Intent(this, NotificationService.class));
+        //startService(new Intent(this, NotificationService.class));
     }
 
 
